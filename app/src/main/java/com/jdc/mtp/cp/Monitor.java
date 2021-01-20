@@ -11,16 +11,16 @@ public abstract class Monitor {
     /**
      * Este metodo se usa para iniciar el monitor
      **/
-    public void start() {}
+    public void start(CallBack back, CallLater later) {}
 
     /**
      * Este mtodo se usa para pausar el monitor
      **/
-    public void pause() {}
+    public void pause(CallBack back, CallLater later) {}
 
     /**
      * Este metodo se usa para detener al monitor
      **/
-    public void stop() {}
+    public void stop(CallBack back, CallLater later) {}
 
 }
