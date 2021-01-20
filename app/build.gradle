@@ -28,6 +28,10 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+
+    // Apache batik dependencies
+    // https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop
+    compile group: 'org.apache.xmlgraphics', name: 'fop', version: '2.5'
 }
 
 application {
