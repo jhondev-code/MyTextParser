@@ -3,6 +3,8 @@
  */
 package com.jdc.mtp;
 
+import com.jdc.mtp.core.Execution;
+
 import java.awt.*;
 
 public class App {
@@ -10,8 +12,7 @@ public class App {
     public static void main(String[] args) {
         EventQueue.invokeLater(()-> {
             try {
-                /* the code */
-                // user.dir
+                new Execution();
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
