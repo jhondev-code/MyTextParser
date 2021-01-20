@@ -3,12 +3,17 @@
  */
 package com.jdc.mtp;
 
+import java.awt.*;
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        EventQueue.invokeLater(()-> {
+            try {
+                /* the code */
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        });
     }
 }
