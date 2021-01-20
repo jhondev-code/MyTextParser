@@ -1,5 +1,7 @@
 package com.jdc.mtp.cp;
 
+import java.awt.datatransfer.Clipboard;
+
 /**
  * Esta interfaz posee un metodo el cual es llamado cuando el contenido del portapapeles ha cambiado.
  *
@@ -11,6 +13,6 @@ public interface ContentRequester {
     /**
      * Es llamado cuando el contenido del portapapeles cambia
      **/
-    void onChanged(ClipboardActions actions);
+    void onChanged(Object content, Clipboard clipboard);
 
 }
