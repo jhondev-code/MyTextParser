@@ -6,7 +6,7 @@ package com.jdc.mtp.cp;
  * @version 1.0.0
  * @author Jhon
  **/
-public interface Callback {
+public interface CallBack {
 
     /**
      * El codigo a ejecutar se implementa en este metodo.
