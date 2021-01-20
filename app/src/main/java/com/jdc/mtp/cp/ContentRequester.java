@@ -11,6 +11,6 @@ public interface ContentRequester {
     /**
      * Es llamado cuando el contenido del portapapeles cambia
      **/
-    void onChanged(Object content);
+    void onChanged(ClipboardActions actions);
 
 }
